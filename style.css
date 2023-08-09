@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.descriptionCointainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.descriptionCointainer > div {
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+.descriptionCointainer > p {
+    color: rgb(207, 207, 207);
+}
+
+.gameScreen {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(73, 73, 73);
+    margin: 0 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 214, 20);
+}
+
+.topNav {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 10px 20px 20px 50px;
+    height: 80px;
+}
+
+.livesBlock {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.livesBlock > img {
+    width: 50px;
+}
+
+.buyLives {
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    background-color: transparent;
+    border: 2px solid yellow;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.buyLives:hover {
+    border: 2px solid white;
+    color: yellow;
+}
+
+.bunnyCatchBlock {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.bunnyCatchBlock > img {
+    width: 100px;
+}
+
+.bunnyCatchBlock > div {
+    font-size: 3rem;
+    color: yellow;
+}
+
+.mainCointainer {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-self: center;
+}
+
+.mainCointainer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animalsGif {
+    width: 100px;
+    height: 90px;
+    position: relative;
+}
+
+.plasticCup {
+    width: 160px;
+    height: 170px;
+    position: absolute;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
